@@ -1,0 +1,38 @@
+{
+    "development": {
+      "username": "root",
+      "password": "1234",
+      "database": "waranka",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "charset": "utf8",
+      "collate": "utf8_general_ci",
+      "dialectOptions": {
+        "multipleStatements": true
+      }
+  
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "waranka",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "waranka_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "token":{
+      "secret":"secret",
+      "tiempoExpiracion":6000
+    },
+    "aws":{
+      "secret":"",
+      "access":"",
+      "baseHost":""
+    }
+  }
